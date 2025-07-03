@@ -5,3 +5,6 @@
 [workspace]
 members = ["ext/commonmarker"]
 resolver = "2"
+
+[patch.crates-io]
+rb-sys = { git = "https://github.com/triaxx/rb-sys", rev = "1a592c31" }
